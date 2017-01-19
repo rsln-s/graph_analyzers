@@ -30,11 +30,11 @@ def run_calc(prefix, num_iter):
 
 
 def main():
-	with_rs = run_calc("with_rs_", 25) 
-	without_rs = run_calc("without_rs_", 24)
-	for i in range(1, 23):
-		print("iter: ", i, " with_rs: ", with_rs[i], " without_rs ", without_rs[i])
-	print("iter: 23, with_rs: ", with_rs[23]," without_rs: N/A")
+	with_rs = run_calc("with_rs_", 9) 
+	without_rs = run_calc("without_rs_", 9)
+	for i in range(0, 8):
+		print("iter: ", i+1 , " with_rs: ", with_rs[i], " without_rs ", without_rs[i])
+	#print("iter: 23, with_rs: ", with_rs[i]," without_rs: N/A")
 
 if __name__ == "__main__":
 	main()
